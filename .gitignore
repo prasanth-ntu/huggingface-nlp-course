@@ -6,3 +6,7 @@
 pytorch_model.bin
 *pytorch_model.bin
 **/pytorch_model.bin
+
+# Ignore DS store
+.DS_Store
+*/.DS_Store
