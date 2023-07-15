@@ -27,7 +27,19 @@
   - [2.7 Basic usage completed!](./2-Using-Transformers/2.6%20Putting%20it%20all%20together%20(PyTorch)%20and%202.7%20Basic%20usage%20completed.ipynb)
   - [2.8 End-of-chapter quiz](./2-Using-Transformers/2.8%20End-of-chapter%20quiz.pdf)
 - [3. Fine-tuning a pretrained model](./3-Fine-Tuning-a-Pretrained-model/)
-  - 3.1 Introduction
+  - [3.1 Introduction](./3-Fine-Tuning-a-Pretrained-model/3.1%20Introduction%20and%203.2%20Processing%20the%20data%20(PyTorch).ipynb)
+  - [3.2 Processing the data](./3-Fine-Tuning-a-Pretrained-model/3.1%20Introduction%20and%203.2%20Processing%20the%20data%20(PyTorch).ipynb)
+  - [3.3 Fine-tuning a model with the Trainer API or Keras](./3-Fine-Tuning-a-Pretrained-model/3.3%20Fine%20tuning%20a%20model%20with%20the%20Trainer%20API%20or%20Keras.ipynb)
+  - [3.4 A full training](./3-Fine-Tuning-a-Pretrained-model/3.4%20A%20full%20training%20and%203.5%20Fine-tuning%20Check.ipynb)
+  - [3.5 Fine-tuning, Check!](./3-Fine-Tuning-a-Pretrained-model/3.4%20A%20full%20training%20and%203.5%20Fine-tuning%20Check.ipynb)
+  - [3.6 End-of-chapter quiz](./3-Fine-Tuning-a-Pretrained-model/3.6%20End-of-chapter-quiz.pdf)
+- [4. Sharing models and tokenizers](./4-Sharing-models-and-tokenizers/)
+  - The Hugging Face Hub
+  - Using pretrained models
+  - Sharing pretrained models
+  - Building a model card
+  - Part 1 completed!
+  - End-of-chapter quiz
 
 ## To clarify
 - Lesson 1
