@@ -7,6 +7,9 @@ pytorch_model.bin
 *pytorch_model.bin
 **/pytorch_model.bin
 
+# Ignore check points generated in different sections
+3-Fine-Tuning-a-Pretrained-model/test-trainer/*
+
 # Ignore DS store
 .DS_Store
 */.DS_Store

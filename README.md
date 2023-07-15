@@ -32,3 +32,5 @@
 ## To clarify
 - Lesson 1
   - Extractive question answering vs. generative question answering
+- Lesson 2
+  - Base transformer and model heads (L2.2)
