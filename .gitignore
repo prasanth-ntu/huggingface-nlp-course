@@ -12,8 +12,8 @@ optimizer.pt
 
 # Ignore check points generated in different sections
 3-Fine-Tuning-a-Pretrained-model/test-trainer/*
-7-Main-NLP-Tasks/bert-finetuned-ner/*
-7-Main-NLP-Tasks/bert-finetuned-ner-accelerate/*
+7-Main-NLP-Tasks/bert-finetuned-ner/
+7-Main-NLP-Tasks/bert-finetuned-ner-accelerate/
 
 # Ignore DS store
 .DS_Store
