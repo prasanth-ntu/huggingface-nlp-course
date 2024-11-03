@@ -60,16 +60,28 @@ Number of GPUs: 2
 GPU Name: NVIDIA A100-SXM4-80GB
 ```
 
-## Additional helpers
+## Additional libraries
+### ipykernel
+```
+conda install ipykernel
+```
 Register this current conda env as a Jupyter Kernel
 ```
 python -m ipykernel install --user --name conda_hf_nlp_py3_10 --display-name "conda_hf_nlp_py3_10"
 ```
-
+### ipywidgets
 Install ipywidgets to resolve the IProgress warning
 ```
 pip install ipywidgets
 ```
-
-
+### flair
+Source: https://huggingface.co/flair/pos-english#demo-how-to-use-in-flair
+```
+pip install flair
+```
+### sacremoses
+The sacremoses library is a Python wrapper for the Moses tokenizer, which is a widely used tool for tokenizing text in NLP. It provides functionalities for tokenizing, detokenizing, and normalizing text, and is particularly useful for preparing text data for machine translation and other NLP tasks.
+```
+pip install sacremoses
+```
 
