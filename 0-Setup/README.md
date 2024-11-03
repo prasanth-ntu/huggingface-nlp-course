@@ -13,7 +13,7 @@ pip install transformers
 
 Development version (with required dependencies)
 ```
-pip install transformers sentencepiece
+pip install "transformers[sentencepiece]"
 ```
 
 
@@ -21,3 +21,12 @@ pip install transformers sentencepiece
 ```
 python --version
 ```
+
+**Testing the installation**
+```
+import transformers
+```
+```
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+```
+The warning message above indicates that none of the deep learning frameworks (PyTorch, TensorFlow >= 2.0, or Flax) required by the transformers library have been found. To use the models provided by transformers, you need to install at least one of these frameworks.
