@@ -1,6 +1,6 @@
 
 
-def stylize(s, bold=True, color=None, c = None):
+def stylize(s, bold=True, italic=False, color=None, c = None):
     """
     Format a string with ANSI escape codes for bold and color.
     
@@ -17,6 +17,8 @@ def stylize(s, bold=True, color=None, c = None):
     
     if bold:
         format_codes.append('1')
+    if italic:
+        format_codes.append('3')
     
     # Use color if provided, otherwise use c if provided
     color_param = color or c
@@ -54,3 +56,4 @@ if __name__ == "__main__":
     print(stylize(s, c='b', bold=False))
     print(stylize(s, bold=True, color='green'))
     print(stylize(s, color="pink"))
+    print(stylize(s, color="pink", italic=True))
